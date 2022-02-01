@@ -1,0 +1,24 @@
+{
+    "name": "pendragon",
+    "title": "Pendragon",
+    "description": "",
+    "author": "markd",
+    "version": 0.01,
+    "minimumCoreVersion": "9.242",
+    "compatibleCoreVersion": "9.242",
+    "esmodules": [
+        "pendragon.js"
+    ],
+    "styles": [
+        "pendragon.ccs"
+    ],
+    "packs": [
+
+    ],
+    "languages": [
+
+    ],
+    "gridDistance": 5,
+    "primaryTokenAttribute": "hp",
+    "initiative": "@dex"
+}
