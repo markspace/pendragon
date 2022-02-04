@@ -5,7 +5,7 @@
     "author": "markd",
     "version": 0.01,
     "minimumCoreVersion": "9.242",
-    "compatibleCoreVersion": "9.242",
+    "compatibleCoreVersion": "9.249",
     "esmodules": [
         "pendragon.js"
     ],

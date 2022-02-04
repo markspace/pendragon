@@ -1,4 +1,87 @@
 {
-    "Actor": {},
-    "Item": {}
+    "Actor": {
+        "types" : ["pc", "npc", "monster"],
+        "templates": {
+
+        },
+        "pc": {
+
+        },
+        "npc": {
+
+        },
+        "monster": {
+
+        }
+    },
+    "Item": {
+        "types": [
+            "armor",
+            "shield",
+            "religion",
+            "item",
+            "skill",
+            "passion"
+        ],
+        "templates": {
+            "description": {
+                "description": ""
+            }
+        },
+        "armor": {
+            "type": "",
+            "templates": [
+                "description"
+            ],
+            "reduction": 0,
+            "dex_modifier": 0,
+            "heavy_load": false
+        },
+        "shield": {
+            "name": "",
+            "templates": [
+                "description"
+            ],
+            "reduction": 0
+        },
+        "religion": {
+            "name": "",
+            "traits": [],
+            "bonus" : ""
+        },
+        "item": {
+            "name": "",
+            "templates": [
+                "description"
+            ],
+            "quantity": 1,
+            "weight": 0,
+            "attributes": {}
+        },
+        "skill": {
+            "name": "",
+            "templates": [
+                "description"
+            ],
+            "base": 0,
+            "increase": 0,
+            "modifier": 0,
+            "total": 0,
+            "experience": true,
+            "knightly": false,
+            "knowledge": false
+        },
+        "passion": {
+            "name": "",
+            "templates": [
+                "description"
+            ],
+            "base": 15,
+            "increase": 0,
+            "modifier": 0,
+            "total": 0,
+            "experience": false,
+            "skillcategory": ""
+        }
+    }
 }
